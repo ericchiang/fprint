@@ -21,7 +21,7 @@ def _get_time(fmt=default_format):
 
 def fancy_print(msg,time=True,header=None,color=None,end='\n',file=sys.stdout):
     if isinstance(file,str):
-        file = open(file,"w")
+        file = open(file,"a")
     msg = "%s%s" % (msg,end)
     if header:
         msg = "%s: %s" % (header,msg)
