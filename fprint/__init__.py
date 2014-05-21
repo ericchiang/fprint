@@ -1,8 +1,19 @@
 from .printing import (
-        print_info,
-        print_error,
-        print_time,
-        print_json
-        )
+    fancy_print,
+    print_color,
+    print_error,
+    print_info,
+    print_json,
+    print_success,
+    print_time,
+    print_warning
+)
 
-__all__ = ["print_info","print_error","print_time","print_json"]
+__all__ = ["fancy_print",
+           "print_color",
+           "print_error",
+           "print_info",
+           "print_json",
+           "print_success",
+           "print_time",
+           "print_warning"]
