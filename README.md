@@ -2,6 +2,14 @@
 
 Printing functions I never want to rewrite again
 
+###Install
+
+```
+$ pip install fprint
+```
+
+###Examples
+
 ```python
 $ ipython
 Python 2.7.6 (default, Mar  4 2014, 11:53:55)
