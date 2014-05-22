@@ -10,17 +10,9 @@ $ pip install fprint
 
 ###Examples
 
+![fprint terminal examples](https://raw.githubusercontent.com/EricChiang/fprint/master/img/fprint.jpg)
+
 ```python
-$ ipython
-Python 2.7.6 (default, Mar  4 2014, 11:53:55)
-Type "copyright", "credits" or "license" for more information.
-
-IPython 2.0.0 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
-
 In [1]: from fprint import *
 
 In [2]: print_info("Hey, some stuff just happened")
