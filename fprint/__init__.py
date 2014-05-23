@@ -16,4 +16,5 @@ __all__ = ["fancy_print",
            "print_json",
            "print_success",
            "print_time",
-           "print_warning"]
+           "print_warning",
+           "timer"]
